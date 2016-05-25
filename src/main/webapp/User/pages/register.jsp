@@ -1,16 +1,16 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: brusoth
-  Date: 5/25/16
-  Time: 3:50 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-    <title>Title</title>
+
 </head>
 <body>
-
+<h1>Struts 2 Hello World Example</h1>
+<s:form action="Welcome">
+    <s:textfield name="username" label="Username"/>
+    <s:password name="password1" label="Password"/>
+    <s:password name="password2" label="Retype Password"/>
+    <s:submit />
+</s:form>
 </body>
 </html>
