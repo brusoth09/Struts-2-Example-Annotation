@@ -14,3 +14,4 @@ hs_err_pid*
 #intellij related
 .idea/*
 target/*
+Struts2Example.iml
